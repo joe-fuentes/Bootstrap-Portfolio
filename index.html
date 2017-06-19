@@ -1,72 +1,81 @@
 <!doctype html>
 <html lang="en-us">
-	<head>
-		<meta charset="UTF-8">
-		<title>Bootstrap-Wireframe</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">	
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-	<body>
 
-	  <div class="container">
-	    <div class="row">
-			<header>
-				<p>header</p>
-			</header>
-	    </div>
-	    <div class="row">
-			<header>
-				<p>nav</p>
-			</header>
-	    </div>
-	  </div>
+<head>
 
-	<div class="container">
-		<div class="row">
-			<section>
-		      	<div class="col-md-8">
-					<heading>
-						<p>section</p>
-					</heading>
-					<div class="container">
-						<article>
-							<heading>article</heading>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-							<div class="row">
-								<h1>h1, h2, h3</h1>
-							</div>
-							<div class="row">
-								<p>p</p>
-							</div>
+  <title>About | Joe Fuentes</title>
 
-						</article>
-					</div>	
-				</div>
-			</section>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-			<aside>
-		      	<div class="col-md-4">
-					<heading>
-<!--					    <p><a class="btn btn-primary btn-lg" href="#" role="button">aside</a></p> -->
-					    <p>aside</p>
-					</heading>
-				</div>
-			</aside>
-	  	</div>
-	</div>
+</head>
 
-	<div class="clear"></div>
+<body>
+  <header id="masthead">
+    <a href="#" id="logo">Joe Fuentes</a>
 
-	  <div class="container">
-	    <div class="row">
-	      <div class="col-md-12">
-			<footer>
-				<p>footer</p>
-			</footer>
+	  <nav class="navbar navbar-default">
+	    <div class="container">
+
+	      <div class="navbar-header">
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	              <span class="sr-only">Toggle navigation</span>
+	              <span class="icon-bar"></span>
+	              <span class="icon-bar"></span>
+	              <span class="icon-bar"></span>
+	        </button>
 	      </div>
-	    </div>
-	  </div>
 
-	</body>
+	      <div id="navbar" class="navbar-collapse collapse">
+	      	<ul class="nav navbar-nav navbar-right">
+			  <li><a href="#" id="about">About</a></li>
+			  <li><a href="portfolio.html" id="portfolio">Portfolio</a></li>
+			  <li><a href="contact.html" id="contact">Contact</a></li>
+			</ul>
+	      </div>
+
+	    </div>
+	  </nav>
+
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+
+      <div class="container">
+      	<div class="row">
+		  <div class="col-xl-12">
+		    <img src="assets/images/mypic.jpg" class="auth-image" alt="Joe Fuentes">
+
+		    <p>I was born in Jacksonville, Florida. Shortly after, our family moved to the Philippines. I was raised by my mother while in the Philippines. After graduating from high school, I returned to Jacksonville to live with my father. As soon as I landed back here in the United States I started my first job at McDonald's flipping burgers.</p>
+
+		    <p>I worked as an attractions operator at the Walt Disney World. Then, after I received my Bachelors degree in Electrical Engineering from UCF, I got a position as an engineer, hopping from one company to another - gaining field experience anywhere I can.</p>
+		  </div>
+		</div>
+      </div>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="https://github.com/joe-fuentes/joe-fuentes.github.io"><img src="assets/images/GitHub.jpg" class="social" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/feed/"><img src="assets/images/LinkedIN.jpg" class="social" alt="LinkedIn" /></a>
+        <a href="https://stackoverflow.com/"><img src="assets/images/StackOverflow.jpg" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 2017 Joe Fuentes
+    </div>
+  </footer>
+</body>
+
 </html>
